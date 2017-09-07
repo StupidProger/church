@@ -1,0 +1,349 @@
+html{
+	background-color:#333; 
+	background: url("../img/background_2.jpg") no-repeat;
+}
+.top-text{
+	width: 945px;
+	height: 450px;
+	color: #ac752f;
+	border: 10px solid #ac752f; 
+	margin-top: 175px;
+	margin-left: 520px;
+	margin-right: 515px;
+	margin-bottom: 305px;
+	text-align: center;
+}
+.top-text .text1{
+	font-size:24px;
+	font-family:"Mediator", sans-serif; 
+	line-height: 50px;
+	padding-top: 75px;
+
+}
+.top-text .undertitle { 
+	float: left;
+	display: block; 
+	width: 85px; 
+	height: .1rem; 
+	margin: 0 auto; 
+	background-color: #ad7835;
+	margin-left: 420px; 
+}
+.top-text h1{
+	padding-top: 65px;
+	font-size:80px;
+	font-family: "Mediator", sans-serif;
+	line-height:85px;
+	color: white;
+	letter-spacing:5px; 
+}
+.top-text .text2{
+	padding-top:45PX; 
+	padding-bottom: 100px;
+	font-size:24px;
+	font-family:"Mediator", sans-serif;
+	line-height: 50px;
+	letter-spacing:15px;
+	text-transform: uppercase;    
+}
+.title{
+	background:#373737;
+	width:1310px;
+	height:560px;
+	margin-left: 350px;
+	margin-right:345px;
+	margin-bottom: 240px;
+	padding-left:65px;
+	position: relative;
+}
+.title h2{
+	padding-top: 70px;
+	font-size: 60px;
+	font-family:"Mediator", sans-serif;
+	line-height: 81px;
+	color: #ad7835; 
+}
+.title .undertitle span { 
+	float: left;
+	display: block; 
+	width: 90px; 
+	height: .1rem; 
+	margin: 0 auto; 
+	background-color: #ad7835; 
+}
+.title p{
+	color: #fff;
+	font-size: 16px;
+	font-family:"Mediator", sans-serif;
+	line-height: 28px;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+}
+.title img{
+	position: absolute;
+	top: -55px;
+	right: 70px;
+	border-color: transparent;
+}
+.title a{
+	padding: 20px 40px; 
+	font-size: 16px;
+	font-family: "Mediator", sans-serif;
+	line-height: 28px;
+	color:#ad7835;
+    text-transform: uppercase;
+    border: 2px solid #ad7835;
+    background: transparent;
+    font-weight: bold;
+}
+.news{
+	width: 1320px;
+	height: 690px;
+	margin-top: 230px;
+	margin-left: 280px;
+}
+.news h2{
+	font-size: 60px;
+	font-family: "Mediator", sans-serif;
+	line-height: 81px;
+	color: #ad7835;
+	text-align: center;
+	margin-bottom: 85px;
+}
+.news .undertitle span { 
+	float: left;
+	display: block; 
+	width: 90px; 
+	height: .2rem; 
+	margin: 0 auto; 
+	background-color: #ad7835;
+	margin-top: 0px;
+	margin-left: 549px;
+	margin-bottom: 50px;
+}
+.news-item{
+	width:370px;
+	height:545px;
+	margin-right:100px;  
+}
+.news-item:nth-child(2){
+	margin-top: 140px;
+}
+.news-item:last-child{
+	margin-right:0; 
+}
+.news-item h3{
+	margin-top:75px; 
+	font-family:"Mediator", sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	color: #ad7835;
+	border-bottom:2px solid #ad7835; 
+}
+.news-item p{
+	padding-top: 45px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	font-family: "Mediator", sans-serif;
+	line-height: 28px;
+	color: #fff;
+}
+.news-item a{
+	font-size: 16px;
+	font-family: "Mediator", sans-serif;
+	line-height: 28px;
+	color: #ad7835;
+}
+.photo-x{
+	width: 335px;
+	height:235px;
+	background:#333;
+	position: relative;
+}
+.photo-x img{
+	position: absolute;
+	top: 30px;
+	left:30px;
+	
+}
+.galery{
+	margin-top: 225px;
+	margin-left: 340px;
+	margin-right: 325px;
+	margin-bottom: 0px;
+}
+.galery h2{
+	font-size: 60px;
+	font-family: "Mediator", sans-serif;
+	line-height: 81px;
+	color: #ad7835;
+	text-align: left;
+	padding-top: 240px;
+	padding-left: 65px;
+	margin-bottom: 30px;
+}
+.galery .undertitle span { 
+	float: left;
+	display: block; 
+	width: 95px; 
+	height: .2rem; 
+	margin: 0 auto; 
+	background-color: #ad7835;
+	margin-top: -20px;
+	margin-left: 65px; 
+} 
+.photo-galery{
+	width: 1335px;
+	height: 1125px;
+	position: relative;
+	margin-bottom: 95px;
+}
+.photo-galery img:first-child{
+	position: absolute;
+	top: 70px;
+	left: 80px;
+	
+}
+.photo-galery img:nth-child(2){
+	position: absolute;
+	top:0;
+	left:480px; 
+}
+.photo-galery img:nth-child(3){
+	position: absolute;
+	top: 150px;
+	right: 80px;
+}
+.photo-galery img:nth-child(4){
+	position: absolute;
+	top:380px;
+	left: 470px;
+}
+.photo-galery img:nth-child(5){
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+}
+.photo-galery img:nth-child(6){
+	position: absolute;
+	bottom: 140px;
+	right: 80px;
+}
+.photo-galery img:last-child{
+	position: absolute;
+	bottom: 0;
+	left: 470px;
+}
+.galery a{
+	padding: 25px 10px; 
+	font-size: 16px;
+	font-family: "Mediator", sans-serif;
+	line-height: 28px;
+	color:#ad7835;
+    text-transform: uppercase;
+    border: 2px solid #ad7835;
+    background: transparent;
+    margin-left: 565px;
+    margin-bottom: 195px;
+    
+}
+.payback{
+	width:1300px;
+	height:560px;
+	background:#373737;
+	margin: auto 350px;
+	margin-bottom: 190px;
+	position: relative;
+}
+.payback h2{
+	font-size:44px;
+	font-family: "Mediator", sans-serif;
+	line-height:81px;
+	color:#ad7835;
+	text-align: right;
+	padding-top: 80px;
+	padding-right: 40px;
+}
+h2 .undertitle span { 
+	float: left;
+	display: block; 
+	width: 95px; 
+	height: .2rem; 
+	margin: 0 auto; 
+	background-color: #ad7835;
+	margin-left: 760px;
+	margin-bottom: 50px;
+} 
+.payback img{
+	position: absolute;
+	top: -50px;
+	left: 70px;
+}
+#price-form{
+	float: right;
+	width: 475px;
+	height: 315px;
+	margin-right: 60px;
+}
+#price-form input[type="text"]{
+	float: left;
+	width:475px;
+	height: 40px;
+	background: transparent;
+	border-color: transparent;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: "Mediator", sans-serif;
+	border-bottom:1px solid #fff;  
+}
+#price-form #left-part{
+	width: 220px;
+}
+#price-form #right-part{
+	width: 210px;
+	float: right;	
+	margin-left: 40px;
+}
+#price-form .message{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	word-wrap: wrap;
+	margin-bottom: 15px;
+}
+#price-form input[type="submit"]{
+	width:180px; 
+	background: transparent;
+	border:2px solid #ad7835;
+	color: #ad7835;
+	font-size: 16px;
+	line-height: 28px;
+	text-transform: uppercase;
+	margin-top: 55px;
+	margin-bottom: 60px;
+	padding: 20px 40px;
+}
+.page-footer .social-icons{
+	margin-left: 930px;
+	margin-right: 0px;
+	margin-bottom: 165px;
+}
+.social-icons img{
+	border:1px solid #ad7835;
+	margin-right:25px !important;
+}
+.social-icons .vk{
+	padding-top:25px;
+	padding-left:15px;
+	padding-right:20px;
+	padding-bottom:20px;
+	   
+}
+.social-icons .twitter{
+	padding: 20px;
+	padding-top: 25px;
+}
+.social-icons .insta{
+	padding: 20px;
+	margin-right:0; 
+}
